@@ -68,11 +68,11 @@ elif oper == 'nand':
 # а если на 15 - fizzbuzz. Если не делится нацело ни на одно из них, выведите это же число (8 баллов)
 
 number = int(input('Введите целое число '))
-if number%3 == 0 and number%5 != 0:
+if number % 3 == 0 and number % 5 != 0:
     print("fizz")
-elif number%3 != 0 and number%5 == 0:
+elif number % 3 != 0 and number % 5 == 0:
     print("buzz")
-elif number%15 == 0:
+elif number % 15 == 0:
     print("fizzbuzz")
 else:
     print(number)

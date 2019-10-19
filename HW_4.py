@@ -91,7 +91,7 @@ print(elements)
 interesting_numbers = (3, 2, 5, 7, 14, 26, 32, 31, 37, 6)
 summa = 0
 for elem in interesting_numbers:
-    if elem%2 == 0:
+    if elem % 2 == 0:
         summa += elem
     else:
         continue
