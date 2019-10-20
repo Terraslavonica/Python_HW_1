@@ -106,8 +106,8 @@ elif oper == 'or':
     print("T,T   ->", True or True, "\n"+"T,F   ->", True or False,
           "\n"+"F,T   ->", False or True, "\n"+"F,F   ->", False or False)
 elif oper == 'xor':
-    print("T,T   ->", not (True or True), "\n"+"T,F   ->", True or False,
-          "\n"+"F,T   ->", False or True, '\n'+"F,F   ->", False and False)
+    print("T,T   ->", True^True, "\n"+"T,F   ->", True^False,
+          "\n"+"F,T   ->", False^True, '\n'+"F,F   ->", False^False)
 elif oper == 'nor':
     print("T,T   ->", not (True or True), "\n"+"T,F   ->", not (True or False),
           "\n"+"F,T   ->", not (False or True), '\n'+"F,F   ->", not (False or False))
